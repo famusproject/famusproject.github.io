@@ -1,0 +1,141 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #0b0b0b;
+}
+
+.navbar {
+  background-color: #010101;
+  background: #23eb4f;
+}
+
+.navbar-brand {
+  color: rgb(14, 13, 13) !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: rgb(7, 7, 7) !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.navbar-toggler {
+  border-color: rgb(18, 18, 18);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(24, 23, 23, 0.5);
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-shadow: 5px 5px 5px #f9f8f398;
+}
+
+p {
+  font-family: monospacem;
+  color: #121212;
+}
+
+footer {
+  background-color: #ffffff17;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 8px;
+}
+.col-md-4 {
+  margin-top: 10px;
+}
+.card-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.video-demo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link-web {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 1.1em;
+}
+
+.btn-primary:hover {
+  background-color: #23eb4f;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.list-group-item {
+  background-color: #ffffff00;
+  border: 1px solid #070707;
+  border-radius: 5px;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-primary {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:active {
+  transform: scale(0.95);
+}
+
+.btn-light {
+  background-color: white;
+  border: none;
+}

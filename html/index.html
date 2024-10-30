@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KORAN - Aplikasi Perpustakaan untuk Pengguna</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="../img/logo.png"
+            alt="Logo KORAN"
+            class="img-fluid"
+            style="max-width: 100px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Fitur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Harga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#demo">Video Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#registration">Daftar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <header class="text-center mb-4">
+        <img
+          src="../img/logo.png"
+          alt="Logo KORAN"
+          class="img-fluid"
+          style="max-width: 50%"
+        />
+        <p>
+          KORAN adalah Aplikasi Perpustakaan digital terbaik <br />
+          Temukan dan pinjam buku dengan mudah!
+        </p>
+      </header>
+
+      <section id="features" class="mb-5">
+        <h2>Fitur Aplikasi</h2>
+        <ul id="feature-list" class="list-group mb-3">
+          <li class="list-group-item">
+            Pencarian buku yang cepat dan efisien.
+          </li>
+          <li class="list-group-item">
+            Pendaftaran sebagai anggota perpustakaan.
+          </li>
+          <li class="list-group-item">Koleksi buku hingga 50+</li>
+          <li class="list-group-item">
+            Pengingat jadwal peminjaman dan pengembalian buku.
+          </li>
+          <li class="list-group-item">Akses webinar</li>
+        </ul>
+      </section>
+
+      <div id="pricing">
+        <h2>Paket Berlangganan</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-primary text-white">
+              <div class="card-header">
+                <h3>Blue</h3>
+              </div>
+              <div class="card-body">
+                <p>Harga: Rp 50.000</p>
+                <p>
+                  Fitur: <br />
+                  Akses dasar
+                </p>
+                <button class="btn btn-light">Daftar Sekarang</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-secondary text-white">
+              <div class="card-header">
+                <h3>Silver</h3>
+              </div>
+              <div class="card-body">
+                <p>Harga: Rp 100.000</p>
+                <p>
+                  Fitur: <br />
+                  Akses premium dan pengingat jadwal
+                </p>
+                <button class="btn btn-light">Daftar Sekarang</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-warning text-white">
+              <div class="card-header">
+                <h3>Gold</h3>
+              </div>
+              <div class="card-body">
+                <p>Harga: Rp 200.000</p>
+                <p>
+                  Fitur: <br />
+                  Semua akses dan akses webinar
+                </p>
+                <button class="btn btn-light">Daftar Sekarang</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="demo" class="mb-5">
+        <h2>Video Demo Aplikasi</h2>
+        <p>ini hanya sebagai contoh video nya</p>
+        <div class="video-demo" id="demo">
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/WqqBx3JIPx4?si=Dw7XWv80Haukk7yI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="link" class="mb-5">
+        <h2 id="official-page">Halaman Resmi Aplikasi</h2>
+        <p>
+          Untuk informasi lebih lanjut, kunjungi
+          <a href="https://ipusnas.id/en/index.html" target="_blank"
+            >halaman ini hanya sebagai contoh</a
+          >.
+        </p>
+        <div class="link-web" id="web">
+          <iframe
+            src="https://ipusnas.id/en/index.html"
+            width="100%"
+            height="450"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="registration" class="form-section mb-5">
+        <h2>Formulir Pendaftaran Pengguna</h2>
+        <form id="registrationForm" onsubmit="return validateForm()">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="subscription" class="form-label"
+              >Paket untuk berlangganan</label
+            >
+            <select class="form-select" id="subscription" required>
+              <option value="" disabled selected>Pilih paket...</option>
+              <option value="basic">Blue - Rp 50.000</option>
+              <option value="standard">Silver - Rp 100.000</option>
+              <option value="premium">Gold - Rp 200.000</option>
+            </select>
+          </div>
+
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="terms"
+              required
+            />
+            <label class="form-check-label" for="terms"
+              >Saya setuju dengan syarat dan ketentuan.</label
+            >
+          </div>
+
+          <button type="submit" class="btn btn-primary">Daftar</button>
+        </form>
+      </section>
+
+      <footer class="text-center">
+        <p>&copy; 2024 KORAN. Semua hak dilindungi.</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function validateForm() {
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value.trim();
+        const subscription = document.getElementById("subscription").value;
+        const terms = document.getElementById("terms").checked;
+
+        if (!name || !email || !password || !subscription || !terms) {
+          alert("Semua field harus diisi!");
+          return false;
+        }
+
+        return true;
+      }
+
+      $(document).ready(function () {
+        // Efek hover pada tombol
+        $(".btn-primary").hover(
+          function () {
+            $(this).css("background-color", "#218838");
+          },
+          function () {
+            $(this).css("background-color", "#28a745");
+          }
+        );
+      });
+    </script>
+  </body>
+</html>
